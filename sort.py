@@ -218,9 +218,6 @@ def inplace_heap_sort(input_list):
 
 
 def execute():
-    if not init():
-        print("SDL Initialization Failed.")
-        return
 
     randomize_and_save_array()
     load_arr()
